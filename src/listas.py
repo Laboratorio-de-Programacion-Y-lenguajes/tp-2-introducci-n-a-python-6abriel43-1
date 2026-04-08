@@ -7,16 +7,21 @@ def suma_lista(numeros: list) -> int | float:
     """
     Retorna la suma de todos los elementos de la lista.
     """
-    # TU CÓDIGO AQUÍ
-    pass
+    suma = 0
+    for numero in numeros:
+        suma += numero
+    return suma
 
 
 def filtrar_pares(numeros: list) -> list:
     """
     Retorna una nueva lista con solo los números pares.
     """
-    # TU CÓDIGO AQUÍ
-    pass
+    nueva_lista = []
+    for numero in numeros:
+        if numero % 2 == 0:
+            nueva_lista.append(numero)
+    return nueva_lista
 
 
 def invertir_lista(lista: list) -> list:
