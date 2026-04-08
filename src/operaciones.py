@@ -26,8 +26,12 @@ def contar_vocales(texto: str) -> int:
     Retorna la cantidad de vocales (a,e,i,o,u) en el texto,
     sin distinguir mayúsculas/minúsculas.
     """
-    # TU CÓDIGO AQUÍ
-    pass
+    vocales = "aeiou"
+    cantidad = 0
+    for caracter in texto.lower():
+        if caracter in vocales:
+            cantidad += 1
+    return cantidad
 
 
 def caesar_cipher(texto: str, desplazamiento: int) -> str:
