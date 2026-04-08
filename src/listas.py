@@ -43,7 +43,7 @@ def eliminar_duplicados(lista: list) -> list:
     for elemento in lista:
         if elemento not in nueva_lista:
             nueva_lista.append(elemento)
-        return nueva_lista
+    return nueva_lista
 
 
 def aplanar_lista(lista: list) -> list:
