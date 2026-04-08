@@ -27,8 +27,9 @@ def es_mayor_de_edad(edad: int) -> bool:
     """
     Retorna True si edad >= 18, False caso contrario.
     """
-    # TU CÓDIGO AQUÍ
-    pass
+    if (edad >= 18):
+        return True
+    return False
 
 
 def tipo_de_dato(valor) -> str:
